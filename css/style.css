@@ -1,0 +1,215 @@
+/* &display=swap */
+
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bonheur+Royale:400&display=swap');
+
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../fonts/SFUIText-Regular.woff2') format('woff2'), url('../fonts/SFUIText-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../fonts/SFUIText-Italic.woff2') format('woff2'), url('../fonts/SFUIText-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../fonts/SFUIText-Bold.woff2') format('woff2'), url('../fonts/SFUIText-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'San Francisco';
+    src: url('../fonts/SFUIText-Heavy.woff2') format('woff2'), url('../fonts/SFUIText-Heavy.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Modern';
+    src: url('../fonts/ScotchModern-Italic.woff2') format('woff2'), url('../fonts/ScotchModern-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scotch Modern';
+    src: url('../fonts/ScotchModern-Bold.woff2') format('woff2'), url('../fonts/ScotchModern-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sports World';
+    src: url('../fonts/SportsWorld.woff2') format('woff2'), url('../fonts/SportsWorld.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+	font-family: 'Furius';
+	src: url('../fonts/Furius-Title.woff2') format('woff2'), url('../fonts/Furius-Title.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+	font-family: 'San Francisco';
+	font-size: 22px;
+	line-height: 1.5;
+	color: #111194;
+	text-indent: 50px;
+	}
+
+.title {
+	font-family: 'Furius';
+	font-weight: 500;
+	font-size: 65px;
+	color: #008080;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 30px;
+}
+.menu {
+	font-family: 'Red Rose';
+	font-weight: 600;
+	color: #e44d33;
+}
+h2 {
+	font-family:'Scotch Modern';
+	font-weight: 700;
+	font-size: 40px;
+	color: #144d2d;
+	text-align: center;
+	text-transform: capitalize;
+}
+h3 {
+	font-size: 70px;
+	line-height: 3;
+	text-align: center;
+}
+.about.paragraph {
+	font-family: 'San Francisco';
+	font-weight: 900;
+	font-size: 28px;
+	word-spacing: 70px;
+}
+p.about-1 {
+	font-family: 'Red Rose';
+	font-weight: 600;
+	font-size: 30px;
+	color: #8fad06;
+	text-align: right;
+}
+#block_1 {
+	font-family: 'San Francisco';
+	font-weight: 900;
+	color: #433791;
+	text-shadow: -5px -5px 10px #331ef0;
+}
+.text {
+	font-family: 'San Francisco';
+	font-weight: 700;
+	font-style: italic;
+	font-size: 26px;
+	color: #55207a;
+	text-transform: capitalize;
+}
+#block_2 {
+	font-family: 'Red Rose';
+	font-weight: 600;
+	color: #ff0000;
+	text-shadow: 5px 7px 5px #01090f;
+	text-decoration: overline;
+}
+p.about-2 {
+	font-family: 'Scotch Modern';
+	font-style: italic;
+	font-size: 37px;
+	text-transform: lowercase;
+	color: #682e05;
+}
+p.about-3 {
+	font-family: 'Scotch Modern';
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: underline;
+	color: #ee5b5b;
+}
+#block_3 {
+	font-family: 'Scotch Modern';
+	font-weight: 700;
+	font-style: italic;
+}
+p.about-4 {
+	font-family: 'Sports World';
+	letter-spacing: 22px;
+	color: #4b1a6e;
+}
+#block_4 {
+	font-family: 'Sports World';
+	color: #1fbbb3;
+	word-spacing: 150px;
+}
+span {
+	color: #55207a;
+}
+p.about-5 {
+	font-family: 'Bonheur Royale';
+	font-size: 55px;
+	text-align: center;
+	color: #008080;
+
+}
+#block_5 {
+	font-family: 'Bonheur Royale';
+	font-size: 95px;
+	text-decoration: underline;
+	color: #a71aa7;
+}
+p.about-6 {
+	font-family: 'Furius';
+	font-weight: 500;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #ad1b1b;
+}
+#block_6 {
+	font-family: 'Furius';
+	font-weight: 500;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #ff0000;
+	text-shadow: -5px -5px 8px #e3fa16;
+}
+ul > li {
+	color: #2ba131;
+}
+[class*="-type"] {
+	color: indigo; 
+	font-style: italic;
+}
+li.no {
+	text-decoration: line-through;
+	color: #ff0000;
+}
+.footer {
+	font-family: 'Sports World';
+	font-size: 40px;
+	text-align: center;
+	text-decoration: overline;
+	color: #a71aa7;
+}
